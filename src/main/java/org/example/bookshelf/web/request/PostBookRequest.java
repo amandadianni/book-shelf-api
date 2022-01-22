@@ -19,5 +19,6 @@ public class PostBookRequest {
     private String author;
     private String publisher;
     private String summary;
+    private String imageUrl;
 
 }

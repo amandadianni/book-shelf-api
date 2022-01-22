@@ -31,12 +31,14 @@ public class BookController {
                         .author(request.getAuthor())
                         .publisher(request.getPublisher())
                         .summary(request.getSummary())
+                        .imageUrl(request.getImageUrl())
                         .build());
         return PostBookResponse.builder()
                 .bookId(book.getId())
                 .author(book.getAuthor())
                 .publisher(book.getPublisher())
                 .summary(book.getSummary())
+                .imageUrl(book.getImageUrl())
                 .build();
     }
 
@@ -50,6 +52,7 @@ public class BookController {
                                 .author(book.getAuthor())
                                 .publisher(book.getPublisher())
                                 .summary(book.getSummary())
+                                .imageUrl(book.getImageUrl())
                                 .build()))
                         .build();
     }

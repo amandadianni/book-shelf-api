@@ -1,12 +1,15 @@
 package org.example.bookshelf.entity;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.CreatedDate;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import java.time.Instant;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.UUID;
 
 @Entity
@@ -31,7 +34,6 @@ public class Book {
     @CreatedDate
     private Instant createdAt;
 
-//    @Lob
-//    private byte[] cover;
+    private String imageUrl;
 
 }
