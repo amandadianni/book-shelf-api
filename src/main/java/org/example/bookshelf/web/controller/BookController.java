@@ -49,6 +49,7 @@ public class BookController {
         return GetBooksResponse.builder().books(bookPage.map(book ->
                         GetBookResponse.builder()
                                 .bookId(book.getId())
+                                .title(book.getTitle())
                                 .author(book.getAuthor())
                                 .publisher(book.getPublisher())
                                 .summary(book.getSummary())
