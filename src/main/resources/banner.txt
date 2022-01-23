@@ -1,0 +1,9 @@
+${AnsiColor.BLUE}
+  ____              _        _          _  __      _    ____ ___
+ | __ )  ___   ___ | | _____| |__   ___| |/ _|    / \  |  _ \_ _|
+ |  _ \ / _ \ / _ \| |/ / __| '_ \ / _ \ | |_    / _ \ | |_) | |
+ | |_) | (_) | (_) |   <\__ \ | | |  __/ |  _|  / ___ \|  __/| |
+ |____/ \___/ \___/|_|\_\___/_| |_|\___|_|_|   /_/   \_\_|  |___|
+
+${AnsiColor.BRIGHT_GREEN}  :: Bookshelf - API by Amanda Dianni (Running in Spring Boot ${spring-boot.version}) ::
+${AnsiStyle.NORMAL}
