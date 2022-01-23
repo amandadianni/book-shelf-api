@@ -35,6 +35,7 @@ public class BookController {
                         .build());
         return PostBookResponse.builder()
                 .bookId(book.getId())
+                .title(book.getTitle())
                 .author(book.getAuthor())
                 .publisher(book.getPublisher())
                 .summary(book.getSummary())
